@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'soberana_titularbold';
+    src: url('soberana/soberanatitular-bold-webfont.eot');
+    src: url('soberana/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('soberana/soberanatitular-bold-webfont.woff2') format('woff2'),
+         url('soberana/soberanatitular-bold-webfont.woff') format('woff'),
+         url('soberana/soberanatitular-bold-webfont.ttf') format('truetype'),
+         url('soberana/soberanatitular-bold-webfont.svg#soberana_titularbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'soberana_titularregular';
+    src: url('soberana/soberanatitular-regular-webfont.eot');
+    src: url('soberana/soberanatitular-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('soberana/soberanatitular-regular-webfont.woff2') format('woff2'),
+         url('soberana/soberanatitular-regular-webfont.woff') format('woff'),
+         url('soberana/soberanatitular-regular-webfont.ttf') format('truetype'),
+         url('soberana/soberanatitular-regular-webfont.svg#soberana_titularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'soberana_sansregular';
+    src: url('soberana/SoberanaSans-Regular-webfont.eot');
+    src: url('soberana/SoberanaSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('soberana/SoberanaSans-Regular-webfont.woff2') format('woff2'),
+         url('soberana/SoberanaSans-Regular-webfont.woff') format('woff'),
+         url('soberana/SoberanaSans-Regular-webfont.ttf') format('truetype'),
+         url('soberana/SoberanaSans-Regular-webfont.svg#soberana_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

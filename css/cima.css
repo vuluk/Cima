@@ -1,0 +1,5 @@
+@import url("sections/font-face.css"); /* Fonts */
+
+@import url("sections/bootstrap-mod.css"); /* Bootstrap Modificators*/
+
+@import url("sections/general.css"); /* Home Styles */
