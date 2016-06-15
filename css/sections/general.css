@@ -21,12 +21,11 @@ h2 {
 
 h3 {
     font-family: 'soberana_titularregular', serif;
-    font-size: 23px;
+    font-size: 22px;
     font-variant: uppercase;
     text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    color: #00853F;
+    color: #b41745;
+    padding: 15px 0;
 }
 
 h4 {
@@ -38,17 +37,16 @@ h4 {
 
 h5 {
     font-family: 'soberana_titularregular', serif;
-    font-size: 16px;
+    font-size: 14px;
     font-variant: uppercase;
     color: #B31745;
 }
 
 h6 {
     font-family: 'soberana_titularregular', serif;
-    font-size: 21px;
-    font-variant: uppercase;
-    color: #4C6600;
-    font-weight: bold;
+    font-size: 12px;
+    font-variant: normal;
+    color: #515151;
 }
 
 body {
@@ -146,6 +144,36 @@ a:hover, a:focus {
     color: #fff;
 }
 
+
+/*
+* Horribles iconos redondos
+*/
+
+.mercados {
+    text-align: center;
+}
+
+.rounded-icon {
+    border-radius: 50%; 
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.agricola {
+    background-color: #465922;
+}
+
+.agricola:hover {
+    background-color: #A3A44B;
+}
+
+.pecuarios {
+    background-color: #525355;
+}
+
+.pecuarios:hover {
+    background-color: #919295;
+}
 
 
 /*==========  Non-Mobile First Method  ==========*/

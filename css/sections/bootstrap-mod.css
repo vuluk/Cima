@@ -91,21 +91,18 @@
 * Botones & Links
 */
 
-.btn {
-  border-radius: 0;
-  font-size: 14px;
-  padding: 8px 14px;
-  margin: 5px;
-}
-
 .btn-cima-red:not(.btn-link):not(.btn-flat) {
     background-color: #B41745;
     color: #fff;
+    padding: 8px 14px;
+    margin: 5px;    
 }
 
 .btn-cima-red:hover:not(.btn-link):not(.btn-flat) {
     background-color: #A00331;
     color: #fff;
+    padding: 8px 14px;
+    margin: 5px;       
 }
 
 .btn-cima-gray:not(.btn-link):not(.btn-flat) {
