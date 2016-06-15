@@ -71,6 +71,10 @@ a:hover, a:focus {
     color: #515151;
 }
 
+.clear {
+    height: 10px;
+}
+
 .clean-margin {
   margin: 0px;
 }
@@ -123,12 +127,15 @@ a:hover, a:focus {
     top:0;
     right:0;
 }
+
 #myCarousel .list-group-item {
     border-radius:0px;
     cursor:pointer;
 }
+
 #myCarousel .list-group .active {
     background-color:#eee;  
+    color:#333;
 }
 
 .list-news {
