@@ -32,7 +32,8 @@
     <link href="css/cima.css" rel="stylesheet">
 
     <!-- General JS -->
-    
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet" />
     
 
   </head>
@@ -104,7 +105,14 @@
                   <ul class="dropdown-menu">
                     <li><a href="#">Agropecuaria</a></li>
                     <li><a href="#">Tecnologías</a></li>
-                    <li><a href="#">Tipología</a></li>
+                    <li><a href="#">Tipología <span class="caret"></span> </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Agropecuaria</a></li>
+                        <li><a href="#">Tecnologías</a></li>
+                        <li><a href="#">Tipología</a></li>
+                      </ul>
+
+                    </li>
                   </ul>
                 </li>
                 <li class="dropdown">
@@ -256,10 +264,15 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/newscarousel.js"></script>
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/newscarousel.js"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
+
   </body>
 </html>
