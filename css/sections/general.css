@@ -264,6 +264,21 @@ a:hover, a:focus {
 * Footer
 */
 
+.sitios {
+    margin-top: 20px;
+}
+
+.legal h5 {
+    color: #fff;
+}
+
+.legal {
+    background-color: #515151;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
 .links {
     padding: 10px;
 }
@@ -274,6 +289,11 @@ a:hover, a:focus {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
 }
 
 /*==========  Non-Mobile First Method  ==========*/
