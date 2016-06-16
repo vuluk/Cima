@@ -119,6 +119,10 @@
     border-color: white
 }
 
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {  
+    width: 100%;
+}
+
 
 /*
 * Center text in different resolutions
