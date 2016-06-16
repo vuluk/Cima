@@ -154,6 +154,12 @@ a:hover, a:focus {
 * Horribles iconos redondos
 */
 
+.border {
+    background-color: #F0F0F0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .mercados {
     text-align: center;
 }
@@ -294,6 +300,14 @@ a:hover, a:focus {
 footer a {
     color: #fff;
     font-weight: bold;
+}
+
+.btn-twitter {
+    color: #55acee;
+}
+
+.btn-facebook {
+    color: #3B5998;
 }
 
 /*==========  Non-Mobile First Method  ==========*/
