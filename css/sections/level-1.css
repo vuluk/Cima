@@ -19,3 +19,60 @@
 .item-sidebar {
     padding-bottom: 5px;
 }
+
+.breadcrumb > li + li::before {
+    color: #465922;
+    content: "/ ";
+    padding: 0 5px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    list-style: outside none none;
+}
+
+.breadcrumb a {
+    color: #b41745;
+}
+
+.breadcrumb > .active {
+    font-weight: bold;
+}
+
+.section-teaser {
+    height: 170px;
+    width: 100%;
+    background-image: url(../../img/teaser-trigo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.teaser-inner {
+    background:rgba(0,0,0,0.4);
+    border: solid 3px #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.teaser-inner h2 {
+    color: #fff;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.section-body {
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.panel-heading {
+    border-bottom: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+
+.panel-collapse {
+    padding: 10px;
+}
