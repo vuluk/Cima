@@ -67,24 +67,46 @@
         Resource res = it2.next();
         resid = res.getId();
         String url=res.getAttribute("url");
-        //out.println("          <li class=\"TabbedPanelsTab\"><a href=\"#\" onclick=\"document.getElementById('"+resid+num+"').click();\"><span class=\"resaltado\">"+res.getDisplayTitle(lang)+"</span><br/>"+res.getDisplayDescription(lang)+"</a></li>");
         String img=SWBPortal.getWebWorkPath()+res.getWorkPath()+"/"+res.getAttribute("img");
         String alt=res.getAttribute("alt");
         String target="";
         if(res.getAttribute("target").equals("true")) target=" target=\"_new\"";
 
 
-        out.println('<div class="item">');
-        out.println('<a href="'+url+'"> <img class="img-responsive" '+target+' src="'+img+'" alt="'+alt+'"></a>');
-        out.println(' <div class="carousel-caption"><h4><a href="'+url+'">'+res.getDisplayTitle(lang)+'</a></h4><p>'+res.getDisplayTitle(lang)+'</p></div>');
-        out.println('</div>');
+        out.println("<div class=\"item "+alt+"\">");
+        out.println("<img class=\"img-responsive\" "+target+" src=\""+img+"\">");
+        out.println("<div class=\"carousel-caption\"><h4><a href=\""+url+"\">"+res.getDisplayTitle(lang)+"</a></h4><p>"+res.getDisplayDescription(lang)+"</p></div>");
+        out.println("</div>");
     }
 %>
         </div>
 
+        <ul class="list-group col-sm-4 list-news clean-margin">
+
+<%
+    num = 0;
+    resid = null;
+    Iterator<Resource> it3=set.iterator();
+    while (it3.hasNext())
+    {
+
+        Resource res3 = it3.next();
+        resid = res3.getId();
+        String url3 =res3.getAttribute("url");
+        String img3 =SWBPortal.getWebWorkPath()+res3.getWorkPath()+"/"+res3.getAttribute("img");
+        String alt3 =res3.getAttribute("alt");
+        String target="";
+        if(res3.getAttribute("target").equals("true")) target=" target=\"_new\"";
 
 
-
+        out.println("<li data-target=\"#myCarousel\" data-slide-to=\""+num+"\" class=\"list-group-item "+alt3+"\">");
+        out.println("<h4>"+res3.getDisplayTitle(lang)+"</h4>");
+        out.println("<p>"+res3.getDisplayDescription(lang)+"</p>");
+        out.println("</li>");
+        num++;
+    }
+%>
+        </ul>
 
 
   
