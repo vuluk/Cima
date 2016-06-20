@@ -3,3 +3,5 @@
 @import url("sections/bootstrap-mod.css"); /* Bootstrap Modificators*/
 
 @import url("sections/general.css"); /* Home Styles */
+
+@import url("sections/level-1.css"); /* Páginas de nivel 1 (Teaser) Styles */
