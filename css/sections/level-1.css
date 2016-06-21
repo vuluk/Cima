@@ -20,25 +20,6 @@
     padding-bottom: 5px;
 }
 
-.breadcrumb > li + li::before {
-    color: #465922;
-    content: "/ ";
-    padding: 0 5px;
-}
-
-.breadcrumb {
-    background-color: transparent;
-    list-style: outside none none;
-}
-
-.breadcrumb a {
-    color: #b41745;
-}
-
-.breadcrumb > .active {
-    font-weight: bold;
-}
-
 .section-teaser {
     height: 170px;
     width: 100%;

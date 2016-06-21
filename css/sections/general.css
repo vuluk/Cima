@@ -175,6 +175,30 @@ footer a {
     color: #3B5998;
 }
 
+/*
+* Breadcrubms
+*/
+
+
+.breadcrumb > li + li::before {
+    color: #465922;
+    content: "/ ";
+    padding: 0 5px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    list-style: outside none none;
+}
+
+.breadcrumb a {
+    color: #b41745;
+}
+
+.breadcrumb > .active {
+    font-weight: bold;
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
     /* Extra Large Devices, Ultra Wide Screens */

@@ -108,15 +108,11 @@
 .btn-cima-gray:not(.btn-link):not(.btn-flat) {
     background-color: #515151;
     color: rgba(255, 255, 255, 0.84);
-    border: 1px solid;
-    border-color: white
 }
 
 .btn-cima-gray:hover:not(.btn-link):not(.btn-flat) {
     background-color: #515151;
     color: rgba(255, 255, 255, 0.84);
-    border: 1px solid;
-    border-color: white
 }
 
 .carousel-inner > .item > a > img, .carousel-inner > .item > img {  
