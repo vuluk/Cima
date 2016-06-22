@@ -57,3 +57,18 @@
 .panel-collapse {
     padding: 10px;
 }
+
+.seccion {
+    padding-bottom: 5px;
+    line-height: 2;
+}
+
+.seccion > h3 {
+    text-align: left;
+    color: #B31745;
+    font-size: 1.3em;
+}
+
+.seccion ul {
+    padding-left: 20px;
+}
