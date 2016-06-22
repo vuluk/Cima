@@ -199,6 +199,18 @@ footer a {
     font-weight: bold;
 }
 
+
+
+img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+article h4 {
+    clear: both;
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
     /* Extra Large Devices, Ultra Wide Screens */
