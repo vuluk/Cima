@@ -72,3 +72,12 @@
 .seccion ul {
     padding-left: 20px;
 }
+
+img {
+    float: left;
+    padding-right: 15px;
+}
+
+article h4 {
+    clear: both;
+}

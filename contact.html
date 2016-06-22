@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>CIMA</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- General CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link href="css/cima.css" rel="stylesheet">
+
+    <!-- General JS -->
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet" />
+    
+
+  </head>
+
+  <body>
+
+    <!-- Tool menu START -->
+
+      <div class="row hidden-sm hidden-xs tool-menu clean-margin">
+        <div class="container">
+          <nav class="navbar-tool">
+            <div class="container">
+              <div class="collapse navbar-collapse">
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                  </div>
+                  <button type="submit" class="btn btn-form"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Incio</a></li>
+                  <li><a href="#">Sobre CIMA</a></li>
+                  <li><a href="#">Mapa de sitio</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <li><a href="#">Sitios relacionados</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
+      </div>
+
+    <!-- Tool menu END -->
+
+    <!-- Principal container START -->
+
+    <div class="container">
+      
+      <!-- Logos START -->
+
+      <div class="row logos-container">
+        <div class="col-xs-12 col-sm-4 text-center-not-lg text-center-not-md">
+          <img class="img-responsive principal-logo" src="img/sagarpa-logo.png">
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <img class="img-responsive secondary-logo" src="img/cima-logo.png">
+        </div>
+        <div class="col-sm-4 col-xs-6">
+          <img class="img-responsive secondary-logo" src="img/aserca-logo.png">
+        </div>
+      </div>
+
+      <!-- Logos END -->
+
+      <div class="row">
+        <!-- Static navbar START-->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Producción <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Agropecuaria <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Tecnologías <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Consulta de eventos</a></li>
+                        <li><a href="#">Emeroteca</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Tipología <span class="caret"></span> </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acopio <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Infraestructura <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Seguimiento <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Precios <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Nacionales <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes <span class="caret"></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Diarios</a></li>
+                            <li><a href="#">Semanales</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Internacionales <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Consulta de precios físicos</a></li>
+                        <li><a href="#">Consulta de precios futuros</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Costos de producción <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Agrícola y pecuaria</a></li>
+                    <li><a href="#">Precios e insumos <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comercialización <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Normas <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistema de consulta </a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Sanidad</a></li>
+                    <li><a href="#">Báses agrícolas <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Compradores y vendedores</a></li>
+                    <li><a href="#">Certificaciones</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comercio internacional <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Panorama internacional por producto agroalimentario <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Importaciones y exportaciones <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Sistemas de consulta</a></li>
+                        <li><a href="#">Reportes</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Otras secciones <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <!--<li role="separator" class="divider"></li>-->
+                    <li><a href="#">Climas y presas</a></li>
+                    <li><a href="#">Incentivos</a></li>
+                    <li><a href="#">Infraestructura</a></li>
+                    <li><a href="#">Cartografía</a></li>
+                    <li><a href="#">Tablero de control</a></li>
+                  </ul>
+                </li>
+
+
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+        <!-- Static navbar END -->
+      </div>
+
+      <div class="row">
+        <div class="col-sm-9">
+
+        <!-- Breadcrumb START -->
+
+          <ol class="breadcrumb" style="margin-bottom: 5px;">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Herramientas del sitio</a></li>
+            <li class="active">Mapa de sitio</li>
+          </ol>
+
+          <!-- Breadcrumb END -->
+
+          <!-- Contenido START -->
+          
+
+<article id="cuerpo_texto">
+  <h2>Contacto</h2>
+  <script type="text/javascript" src="/work/models/cima/css/vallenato.js"></script>
+  <p><link media="screen" type="text/css" href="/work/models/cima/css/vallenato.css" rel="stylesheet"> </p>
+  <div class="swb-comment">
+    <form name="frmSendEmail" method="post" action="/es_mx/cima/Contacto/_aid/7/_act/add">
+
+      <div class="row form-group">
+        <label for="selTipo" class="col-sm-3 col-md-offset-1 text-right">Tipo de comentario:</label>
+        <div class="col-sm-9 col-md-6">
+          <select name="selTipo" id="selTipo" class="form-control">
+            <option value="Sugerencias">Sugerencias</option>
+            <option value="Solicitud de Informaciï¿½n">Solicitud de Información</option>
+          </select>          
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <label for="txtFromName" class="col-sm-3 col-md-offset-1 text-right">Nombre:</label>
+        <div class="col-sm-9 col-md-6">
+          <input class="form-control" type="text" name="txtFromName" id="txtFromName" value="">
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <label for="txtFromEmail" class="col-sm-3 col-md-offset-1 text-right">Correo electrónico:</label>
+        <div class="col-sm-9 col-md-6">
+          <input class="form-control" type="text" name="txtFromEmail" id="txtFromEmail" value="carlos.rivera@infotec.mx">
+        </div>
+      </div>
+      <div class="row form-group">
+        <label for="txtPhone" class="col-sm-3 col-md-offset-1 text-right">Teléfono(s):</label>
+        <div class="col-sm-9 col-md-6">
+          <input class="form-control" type="text" name="txtPhone" id="txtPhone" value="">
+        </div>
+      </div>
+      <div class="row form-group">
+        <label for="txtFax" class="col-sm-3 col-md-offset-1 text-right">Fax:</label>
+        <div class="col-sm-9 col-md-6">
+          <input class="form-control" ype="text" name="txtFax" id="txtFax" value="">
+        </div>
+      </div>
+      <div class="row form-group">
+        <label for="tarMsg" class="col-sm-3 col-md-offset-1 text-right">Mensaje:</label>
+        <div class="col-sm-9 col-md-6">
+          <textarea class="form-control" name="tarMsg" id="tarMsg" cols="30" rows="5">&nbsp;</textarea>
+        </div>
+      </div>
+      <div class="swbCaptcha">
+        &nbsp;
+      </div>
+      <div class="row form-group text-center">
+        <input class="btn btn-cima-red" type="submit" name="btnEnviar" id="btnEnviar" onclick="return jsValida(this.form)" value="Enviar">&nbsp;
+        <input class="btn btn-cima-gray" type="reset" name="btnLimpiar" id="btnLimpiar" value="Limpiar">
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript">
+      &lt;!--
+      function jsValida(pForm) {
+          if(pForm.txtFromName.value==null || pForm.txtFromName.value=='' || pForm.txtFromName.value==' ') {
+              alert('Debe especificar el nombre del remitente.');
+              pForm.txtFromName.focus();
+              return false;
+          }
+          if(!isEmail(pForm.txtFromEmail))
+              return false;
+          if(pForm.tarMsg.value==null || pForm.tarMsg.value=='' || pForm.tarMsg.value==' ') {
+              alert('Debe capturar su mensaje.');
+              pForm.tarMsg.focus();
+              return false;
+          }
+          return true;
+      }
+
+      function isEmail(pEmail) {
+          var swOK=2;
+          pCaracter=pEmail.value.replace(" ","\0");
+          for(var i = 0; i &lt; pCaracter.length; i++) {
+              var sByte = pCaracter.substring(i, i + 1);
+              if(sByte=="@" || sByte==".") {
+                  swOK = swOK - 1;
+              }
+          }
+          if(swOK &gt; 0 || pCaracter.length &lt; 5 || pCaracter.charAt(0) == '@' || pCaracter.charAt(0) == '.' || pCaracter.charAt(pCaracter.length-1)=='@' || pCaracter.charAt(pCaracter.length-1)=='.' || pCaracter.charAt(pCaracter.indexOf("@")+1)=='.') {
+              pEmail.focus();
+              alert('La direcci?n de correo electr?nico es obligatoria.');
+              return false;
+          }
+          return true;
+      }
+      --&gt;
+  </script>
+</article>
+
+          <!-- Contenido END -->
+
+        </div>
+
+        <!-- Sidebar START -->
+
+        <div class="col-sm-3">
+          <div class="col-sm-12 col-xs-6">
+            <h3 class="h3-sidebar">Mercados Agrícolas</h3>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-maiz.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Maíz</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-trigo.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Trigo</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-sorgo.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Sorgo</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-frijol.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Frijol</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-arroz.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Arroz</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-cana_de_azucar.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Caña de azúcar</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-algodon.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Algodón</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-cafe.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Café</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-soya.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Soya</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-limon.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Limón</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-manzana.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Manzana</h6>
+              </div>
+            </div>
+            <div class="row item-sidebar">
+              <div class="col-xs-2 clean-margin">
+                <div class="rounded-icon-sidebar agricola">
+                  <img class="img-responsive" src="img/icono-otros_agricolas.png">
+                </div>
+              </div>
+              <div class="col-xs-10 h6-sidebar">
+                <h6>Otros productos</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-6">
+            <h3 class="h3-sidebar">Mercados Pecuarios</h3>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-bovino.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>Bovino</h6>
+                </div>
+              </div>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-porcino.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>Porcino</h6>
+                </div>
+              </div>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-ave.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>Ave</h6>
+                </div>
+              </div>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-leche.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>Leche</h6>
+                </div>
+              </div>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-huevo.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>huevo</h6>
+                </div>
+              </div>
+              <div class="row item-sidebar">
+                <div class="col-xs-2 clean-margin">
+                  <div class="rounded-icon-sidebar pecuarios">
+                    <img class="img-responsive" src="img/icono-otros_pecuarios.png">
+                  </div>
+                </div>
+                <div class="col-xs-10 h6-sidebar">
+                  <h6>Otros productos</h6>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Sidebar END -->
+
+
+      </div>
+
+    </div> <!-- Principal container END -->
+
+    <!-- Footer START -->    
+
+    <footer>
+
+      <!-- Enlaces START -->
+        
+      <div class="row clean-margin sitios">
+        <div class="container center">
+          <div class="border">
+            <h3>Sitios relacionados</h3>
+            <div class="row">
+              <div class="col-md-1 col-md-offset-2 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-agroasemex.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-banxico.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-cimmyt.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-cme.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-fao.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-fira.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-fnd.png" class="img-responsive" alt="...">
+              </div>
+              <div class="col-md-1 col-sm-3 col-xs-3 links">
+                <img src="img/logo-enlaces-inifap.png" class="img-responsive" alt="...">
+              </div>
+            </div>
+            <div class="btn btn-cima-red">Ver más</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Enlaces END -->
+
+      <!-- Legal START -->
+
+      <div class="row clean-margin legal">
+        <div class="container">
+          <div class="col-xs-12 col-md-2 social-container">
+
+              <a href="https://twitter.com/SAGARPA_mx" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle btn-twitter fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              <a href="https://www.facebook.com/SAGARPAmx" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle btn-facebook fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+          </div>
+          <div class="col-xs-12 col-md-8 center">
+            <img class="img-responsive footer-logo" src="img/sagarpa-logo-white.png">
+            <h5>CIMA-SAGARPA<br/>Algunos derechos reservados © 2014 - Políticas de privacidad</h5>
+              <p>Av. Municipio Libre 377, Col. Santa Cruz Atoyac, Del.Benito Juárez,C.P. 03310. México, D.F. Tel: (55) 3871-7300 Ext. 50212 y 50131</p>
+              <p><a href="mailto:cima@aserca.gob.mx">e-mail: cima@aserca.gob.mx</a></p>
+              <p><a href="http://200.38.185.109/swb/cima/Contacto">Comentarios sobre este Sitio de Internet</a></p>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal END -->
+
+
+    </footer>
+
+    <!-- Footer END -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/newscarousel.js"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="js/jquery.smartmenus.min.js"></script>
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.min.js"></script>
+    <!-- Modal -->
+    <script type="text/javascript" src="js/modal.js"></script>
+
+  </body>
+</html>
