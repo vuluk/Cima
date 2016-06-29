@@ -1,4 +1,4 @@
-/* 
+/*
 * Menus
 */
 
@@ -87,7 +87,28 @@
     padding: 10px 20px;
 }
 
-/* 
+/*
+* Tablas
+*/
+
+table {
+    margin: 10px 0;
+}
+
+th {
+    text-align: center;
+}
+td, th {
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+
+.jqx-widget-header, .jqx-grid .jqx-widget-header {
+    background-image: none;
+}
+
+
+/*
 * Botones & Links
 */
 
@@ -95,14 +116,14 @@
     background-color: #B41745;
     color: #fff;
     padding: 8px 14px;
-    margin: 5px;    
+    margin: 5px;
 }
 
 .btn-cima-red:hover:not(.btn-link):not(.btn-flat) {
     background-color: #A00331;
     color: #fff;
     padding: 8px 14px;
-    margin: 5px;       
+    margin: 5px;
 }
 
 .btn-cima-gray:not(.btn-link):not(.btn-flat) {
@@ -115,7 +136,7 @@
     color: rgba(255, 255, 255, 0.84);
 }
 
-.carousel-inner > .item > a > img, .carousel-inner > .item > img {  
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
     width: 100%;
 }
 
