@@ -103,8 +103,17 @@ td, th {
     padding: 5px;
 }
 
+#ieTableConsulta td, #ieTableConsulta th {
+    border: medium none;
+}
+
 .jqx-widget-header, .jqx-grid .jqx-widget-header {
-    background-image: none;
+    background-image: #c5c5c5;
+}
+
+.jqx-fill-state-pressed, .jqx-widget .jqx-grid-cell-selected {
+    background-color: #d1d1d1;
+    background-image: #d1d1d1;
 }
 
 
