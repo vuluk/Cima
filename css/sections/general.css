@@ -218,7 +218,7 @@ article h4 {
         .list-news  .list-group-item { height: 100px; border: none;}
         .carousel-inner > .item { height: 397px;}
         #myCarousel {padding-right:33.3333%;}
-        #myCarousel .carousel-controls {display:none;}          
+        #myCarousel .carousel-controls {display:none;}
     }
 
     /* Large Devices, Wide Screens */
@@ -226,7 +226,7 @@ article h4 {
         .list-news  .list-group-item { height: 100px; border: none;}
         .carousel-inner > .item { height: 397px;}
         #myCarousel {padding-right:33.3333%;}
-        #myCarousel .carousel-controls {display:none;}          
+        #myCarousel .carousel-controls {display:none;}
     }
 
     /* Medium Devices, Desktops */
@@ -234,33 +234,34 @@ article h4 {
         .list-news  .list-group-item { height: 100px; border: none;}
         .carousel-inner > .item { height: 397px;}
         #myCarousel {padding-right:33.3333%;}
-        #myCarousel .carousel-controls {display:none;}            
+        #myCarousel .carousel-controls {display:none;}
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         .carousel-caption p,
-        #myCarousel .list-group {display:none;} 
-        #myCarousel {padding-right:0} 
+        #myCarousel .list-group {display:none;}
+        #myCarousel {padding-right:0}
         .carousel-inner > .item { height: auto;}
         .principal-logo {max-height: 120px; margin-right: auto; margin-left: auto;}
         .secondary-logo {max-height: 80px; margin-right: auto; margin-left: auto;}
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
         .carousel-caption p,
-        #myCarousel .list-group {display:none;} 
+        #myCarousel .list-group {display:none;}
         .carousel-inner > .item { height: auto;}
         .principal-logo {max-height: 120px; margin-right: auto; margin-left: auto;}
         .secondary-logo {max-height: 80px; margin-right: auto; margin-left: auto;}
     }
 
-    /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 360px) {
         .carousel-caption p,
-        #myCarousel .list-group {display:none;} 
+        #myCarousel .list-group {display:none;}
         .carousel-inner > .item { height: auto;}
         .principal-logo {max-height: 120px; margin-right: auto; margin-left: auto;}
         .secondary-logo {max-height: 80px; margin-right: auto; margin-left: auto;}
+        .h6-product {font-size: .7em}
     }

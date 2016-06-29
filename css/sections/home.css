@@ -1,4 +1,4 @@
-/* 
+/*
 * Carrusel de noticias
 */
 
@@ -24,7 +24,7 @@
 }
 
 #myCarousel .list-group .active {
-    background-color:#eee;  
+    background-color:#eee;
     color:#333;
 }
 
@@ -51,9 +51,10 @@
 }
 
 .rounded-icon {
-    border-radius: 50%; 
+    border-radius: 50%;
     max-height: 80px;
     max-width: 80px;
+    margin: 5px;
 }
 
 .agricola {
@@ -102,11 +103,11 @@
 * Modal
 */
 
-.iframe-container {    
+.iframe-container {
     padding-bottom: 60%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .iframe-container iframe,
 .iframe-container object,
 .iframe-container embed{
