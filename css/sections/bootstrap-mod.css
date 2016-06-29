@@ -107,13 +107,15 @@ td, th {
     border: medium none;
 }
 
-.jqx-widget-header, .jqx-grid .jqx-widget-header {
-    background-image: #c5c5c5;
+.jqx-listitem-state-normal.jqx-item.jqx-rc-all.jqx-listitem-state-selected.jqx-fill-state-pressed {
+  background-color: #CCC;
+  background-image: none;
+}
 }
 
-.jqx-fill-state-pressed, .jqx-widget .jqx-grid-cell-selected {
-    background-color: #d1d1d1;
-    background-image: #d1d1d1;
+.jqx-listitem-state-normal .jqx-item .jqx-rc-all .jqx-listitem-state-hover .jqx-fill-state-hover {
+  background-color: #BBB;
+  background-image: none;
 }
 
 
