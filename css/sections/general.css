@@ -211,6 +211,16 @@ article h4 {
     clear: both;
 }
 
+/*
+* Error
+*/
+
+.number-error {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
     /* Extra Large Devices, Ultra Wide Screens */
